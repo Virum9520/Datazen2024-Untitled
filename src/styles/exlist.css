@@ -1,0 +1,89 @@
+.exlist-cont {
+    height: 300vh;
+}
+
+.exlist-inner-cont {
+    display: flex;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: #27374D;
+}
+
+.ex-left {
+    width: 100px;
+}
+
+.left-abs {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 300vh;
+    width: 50vw;
+    z-index: 3;
+}
+
+.left-full {
+
+    margin-left: 700px;
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.left-title {
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 5vw;
+    color: rgb(234, 188, 188);
+}
+
+.left-p {
+    font-size: 25px;
+    color: var(--light-black);
+    color: rgb(253, 229, 229);
+    opacity: .7;
+    margin-bottom: 40px;
+    margin-left: 5vw;
+    width: 360px;
+    text-align: left;
+    font-family: 'sans-serif';
+
+
+}
+
+
+.ex-right {
+    width:700px;
+}
+
+.circle-cont-ex {
+    width: 530px;
+    position: relative;
+    height: 530px;
+    background-color: #e5bfbf;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.ex-list {
+    position: absolute;
+    top: -85px;
+    left: -98px;
+    height: 300vh;
+    width: 50vw;
+}
+
+.list {
+    width: 100%;
+    height: 100vh;
+}
+
+.list img {
+    width: 400px;
+}
